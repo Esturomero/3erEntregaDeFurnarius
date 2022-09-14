@@ -36,7 +36,7 @@
                     <a class="nav-link" href="./contacto.html">Contacto</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./tienda.html">Sponsors</a>
+                    <a class="nav-link" href="./sponsors.html">Sponsors</a>
                   </li>
                 </ul>
               </div>
@@ -44,6 +44,35 @@
           </nav>
     </header>
     <main>
+      <Form class="tablaTorneos" action="#" method="get">
+        <br>
+        <input type="Text" placeholder=" Nombre y apellido" name="Nombre" required>
+        <br><br>
+        <input type="text" placeholder="Direccion" name="Direccion" required>
+        <br><br>
+        <input type="number" placeholder="Codigo Postal" name="Codigo Postal">
+        <br><br>
+        <input type="email" placeholder="contacto@furnarius.com" name="email" required>
+        <br><br>
+        <input type="numbrer" placeholder="+54" name="email" required>
+        <br><br>
+        <Label for="Talle"> Talle </Label>
+        <Select name="Talles"> Talles
+            <option value="M"> XS </option>
+            <Option value="S"> S </Option>
+            <Option value="S"> M </Option>
+            <option value="M"> L </option>
+            <option value="M"> XL </option>
+            <option value="M"> XXL </option>
+            <option value="M"> XXXL </option>
+        </Select>
+        <br><br>
+        <Textarea name="Deja un comentario" cols="60" rows="10" placeholder="Deja tu comentario"></Textarea>
+
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetar">
+    </form>
 
     </main>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
