@@ -1,0 +1,26 @@
+{
+  "name": "3erentregadefurnarius",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esturomero/3erEntregaDeFurnarius.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esturomero/3erEntregaDeFurnarius/issues"
+  },
+  "homepage": "https://github.com/Esturomero/3erEntregaDeFurnarius#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.19"
+  }
+}
